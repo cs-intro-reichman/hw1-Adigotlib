@@ -7,8 +7,8 @@ public class Bill3 {
 		
 		double bill = Double.parseDouble(args[3]);
 		double eachone= bill/3 ;
-		int eachOnePay = (int) Math.ceil(eachone);
+		double eachOnePay = Math.ceil(eachone);
 
-		System.out.println("Dear " + name3 + ", " + name2 + ",  "+ name1 + ":" + " pay " + eachOnePay + " Shekels each ");
+		System.out.println("Dear " + name3 + ", " + name2 + "qnd "+ name1 + ":" + " pay " + eachOnePay + " Shekels each ");
 	}
-} 
+}  
