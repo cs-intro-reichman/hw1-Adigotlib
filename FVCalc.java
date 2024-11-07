@@ -8,7 +8,7 @@ public class FVCalc {
 	
 	 double precent=interstRate/100;
 	 double FutureValue=currentValue*Math.pow((1+precent), NumOFYears);
-	 System.out.println("After " + NumOFYears + " Years, a $" + currentValue + " saved at " + interstRate + "% will be yield $" + (int) FutureValue  );
+	 System.out.println("After " + NumOFYears + " years, a $" + currentValue + " saved at " + interstRate + "% will be yield $" + (int) FutureValue  );
 
 		}
 } 

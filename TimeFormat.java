@@ -34,8 +34,6 @@ public class TimeFormat {
 		}
 		else
 		{
-			if (hours<10)
-			{
 				if (minutes<10)
 				{
 					System.out.println("0" +hours + ":0" + minutes + " AM");
@@ -45,20 +43,7 @@ public class TimeFormat {
 					System.out.println("0"+ hours + ":" + minutes + " AM");	
 
 				}
-			}
-			else
-			{
-				if (minutes<10)
-				{
-					System.out.println(hours + ":0" + minutes + " AM");
-				}
-				else
-				{
-					System.out.println(hours + ":" + minutes + " AM");	
-
-				}
-			}
+		}
 
 		}
 	}
-}
